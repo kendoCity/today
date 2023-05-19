@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Todo-list📜🖥💻</title>
+    <link rel="stylesheet" href="todo-app/style.css">
+    <link rel="manifest" href="app.webmanifest">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <a href="notes-app/notes.html">
+                <strong>✏<!--📝--></strong>
+            </a>
+            <h1>TODAY</h1>
+            <!--for the input and button element-->
+            <div class="input-btn_container">
+                <input type="text" id="input-box" placeholder="write your task..">
+                <button id="add-task" onclick="addTask()">Add</button>
+            </div>
+        </header>
+        <!--this is for the body task section-->
+        <ul id="list-section">
+
+        </ul>
+
+    </div>
+
+    
+    <script src="todo-app/script.js"></script>
+</body>
+
+</html>
